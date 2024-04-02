@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cabrera_MarkAlexis_BSIT22A3_AT2</string>
+    <string name="calculate_tip">CALCULATE TIP</string>
+    <string name="bill_amount">Enter Amount of Bill</string>
+    <string name="how_was_the_service">Enter Tip Percentage</string>
+    <string name="round_up_tip">Press Toggle to Round-Up</string>
+    <string name="tip_amount">Amount of Tip: %s</string>
+</resources>
