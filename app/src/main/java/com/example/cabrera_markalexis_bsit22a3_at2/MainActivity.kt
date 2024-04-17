@@ -60,10 +60,13 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun TipLayout() {
+    //yung (remember) ginagamit para ma-remember ung variable na idedeclare
+    //para siyang initialization
     var amountInput by remember { mutableStateOf("") }
     var tipInput by remember { mutableStateOf("") }
     var roundUp by remember { mutableStateOf(false) }
 
+    //kapag walang value ung textfield magiging equal sya sa zero, double data type
     val amount = amountInput.toDoubleOrNull() ?: 0.0
     val tipPercent = tipInput.toDoubleOrNull() ?: 0.0
     val tip = calculateTip(amount, tipPercent, roundUp)
